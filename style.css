@@ -1,0 +1,278 @@
+                                            * {
+                                                margin: 0;
+                                                padding: 0;
+                                                box-sizing: border-box;
+                                            }
+                                            
+                                            body {
+                                                position: relative;
+                                            }
+                                            
+                                            .nav-link {
+                                                list-style-type: none;
+                                                margin: 0;
+                                                padding: 0;
+                                                display: flex;
+                                                align-items: center;
+                                            }
+                                            
+                                            li {
+                                                list-style-type: none;
+                                                margin: 0;
+                                                padding: 0;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: space-between;
+                                            }
+                                            
+                                            .nav-link a {
+                                                text-decoration: none;
+                                                color: #fc5c63;
+                                            }
+                                            
+                                            button {
+                                                padding: 0.5rem;
+                                                display: inline-block;
+                                                background-color: #fc5c63;
+                                                border: none;
+                                                border-radius: 5px;
+                                                margin: auto;
+                                                color: aliceblue;
+                                            }
+                                            
+                                            #hero {
+                                                height: 100vh;
+                                                background-color: white;
+                                                width: 100%;
+                                            }
+                                            
+                                            .carousel-inner {
+                                                background-color: rgb(17, 17, 17);
+                                                width: 100%;
+                                                height: 100%;
+                                                position: relative;
+                                            }
+                                            
+                                            .carousel {
+                                                height: 100%;
+                                            }
+                                            
+                                            .carousel-item img {
+                                                height: 100vh;
+                                                width: 100%;
+                                                object-fit: cover;
+                                                object-position: center;
+                                                text-align: center;
+                                                opacity: 950%;
+                                            }
+                                            
+                                            .carousel-caption {
+                                                color: white;
+                                            }
+                                            
+                                            #production {
+                                                width: 100%;
+                                                height: 100%;
+                                                background-color: white;
+                                                flex-wrap: wrap;
+                                            }
+                                            
+                                            .navbar {
+                                                z-index: 99;
+                                                background-color: #fc5c63;
+                                                -webkit-backdrop-filter: blur(5px);
+                                                backdrop-filter: blur(5px);
+                                            }
+                                            
+                                            header h5 {
+                                                font-weight: 700;
+                                                color: #fff;
+                                            }
+                                            
+                                            header a {
+                                                font-weight: 500;
+                                            }
+                                            
+                                            header a:hover {
+                                                color: #fc5c63;
+                                            }
+                                            
+                                            .navbar em {
+                                                color: #fc5c63;
+                                            }
+                                            
+                                            .ditPic {
+                                                width: 30vw;
+                                                height: 600px;
+                                                background-color: rgba(0, 255, 255, 0);
+                                                box-shadow: 5px 5px 5px #00000043;
+                                            }
+                                            
+                                            .ditPic img {
+                                                width: 100%;
+                                                height: 100%;
+                                                object-fit: cover;
+                                                object-position: center;
+                                            }
+                                            
+                                            .dit {
+                                                color: black;
+                                            }
+                                            
+                                            .dit h2 {
+                                                color: #fc5c63;
+                                                font-size: 3em;
+                                            }
+                                            
+                                            .end {
+                                                color: #fc5c63;
+                                            }
+                                            
+                                            #scrollspy {
+                                                height: 50vh;
+                                                background-color: white;
+                                                overflow: auto;
+                                                position: relative;
+                                            }
+                                            
+                                            footer {
+                                                position: relative;
+                                                width: 100%;
+                                                background-color: black;
+                                                display: flex;
+                                            }
+                                            
+                                            .starter {
+                                                height: 50px;
+                                                background: #fc5c63;
+                                            }
+                                            
+                                            .ender {
+                                                position: absolute;
+                                                bottom: 0;
+                                                width: 100%;
+                                                height: 50px;
+                                                background: #fc5c63;
+                                            }
+                                            
+                                            .carousel-caption {
+                                                position: absolute;
+                                                top: 60%;
+                                                left: 50%;
+                                                transform: translateX(-50%) translateY(-50%);
+                                            }
+                                            
+                                            .carousel-caption h5 {
+                                                font-size: 4em;
+                                                text-align: center;
+                                                text-transform: capitalize;
+                                            }
+                                            
+                                            #navbar-example2 {
+                                                position: sticky;
+                                                width: 100%;
+                                                top: 0;
+                                                z-index: 99;
+                                            }
+                                            
+                                            .scrollspy-example {
+                                                overflow-y: auto;
+                                                position: relative;
+                                                height: 45vh;
+                                                scroll-behavior: smooth;
+                                            }
+                                            
+                                            .scrollspy-example::-webkit-scrollbar {
+                                                display: none;
+                                            }
+                                            
+                                            .box {
+                                                height: 350px;
+                                                background-color: #fc5c63;
+                                                padding-bottom: 5px;
+                                                overflow: hidden;
+                                                position: relative;
+                                            }
+                                            
+                                            .list-group-item {
+                                                padding: 30px;
+                                                background-color: rgba(0, 0, 0, 0.434);
+                                                -webkit-backdrop-filter: blur(5px);
+                                                backdrop-filter: blur(5px);
+                                                color: #fff;
+                                            }
+                                            
+                                            .list-group-item.active {
+                                                background-color: #fc5c63;
+                                                border: none;
+                                                color: black;
+                                                -webkit-backdrop-filter: blur(5px);
+                                                backdrop-filter: blur(5px);
+                                            }
+                                            
+                                            #list-example {
+                                                height: 100%;
+                                            }
+                                            
+                                            .box img {
+                                                height: 100%;
+                                                width: 100%;
+                                                object-fit: cover;
+                                                object-position: center;
+                                            }
+                                            
+                                            .wrapper {
+                                                width: 100%;
+                                                padding: 30px 0;
+                                            }
+                                            
+                                            .scrollspy-example h4 {
+                                                color: #fff;
+                                            }
+                                            
+                                            .box:hover .boxShadow {
+                                                transform: translateY(0px);
+                                                transition: all 0.5s ease-in-out;
+                                                cursor: pointer;
+                                            }
+                                            
+                                            .boxShadow {
+                                                transform: translateY(200px);
+                                                position: absolute;
+                                                bottom: 0;
+                                                color: #fff;
+                                                padding: 0 10px;
+                                                z-index: 99;
+                                                background: #fc5c63;
+                                                width: 100%;
+                                                padding-bottom: 20px;
+                                                transition: all 0.5s ease-in-out;
+                                            }
+                                            
+                                            .logo {
+                                                color: #fc5c63;
+                                                padding: 50px;
+                                                font-size: 3em;
+                                            }
+                                            
+                                            .logo em {
+                                                color: #fc5c63;
+                                            }
+                                            
+                                            label {
+                                                color: #fff;
+                                            }
+                                            
+                                            textarea {
+                                                padding: 10px;
+                                                margin: 10px 0;
+                                            }
+                                            
+                                            .media {
+                                                display: flex;
+                                                justify-content: space-between;
+                                            }
+                                            
+                                            .media img {
+                                                height: 50px;
+                                            }

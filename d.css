@@ -1,0 +1,96 @@
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                }
+                                
+                                .navbar {
+                                    background-color: #020202;
+                                    opacity: 90%;
+                                }
+                                
+                                ul {
+                                    list-style-type: none;
+                                    margin: 0;
+                                    padding: 0;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                }
+                                
+                                .logo img {
+                                    height: 75px;
+                                    padding: 3px;
+                                }
+                                
+                                ul li {
+                                    margin-left: 1rem;
+                                    list-style: none;
+                                    margin-right: 2rem;
+                                }
+                                
+                                .li {
+                                    list-style-type: none;
+                                    margin: 0;
+                                    padding: 0;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                
+                                .li a {
+                                    text-decoration: none;
+                                    color: #fff;
+                                }
+                                
+                                .li a:hover {
+                                    color: #c90808;
+                                }
+                                
+                                button {
+                                    padding: 0.5rem;
+                                    display: inline-block;
+                                    background-color: #c90808;
+                                    border: none;
+                                    border-radius: 5px;
+                                    margin: auto;
+                                }
+                                
+                                button a {
+                                    color: #fff;
+                                }
+                                
+                                .hero1 {
+                                    margin: 0;
+                                    padding: 5px;
+                                    background-image: url("3.jpg");
+                                    opacity: 90%;
+                                    height: 80%;
+                                    width: 100%;
+                                }
+                                
+                                .motivaton {
+                                    margin-top: 15px;
+                                    height: 250px;
+                                    width: 20%;
+                                    background-color: black;
+                                    opacity: 90%;
+                                    margin-left: 15%;
+                                    border-radius: 10px;
+                                }
+                                
+                                .slogan {
+                                    font-weight: 90px;
+                                    color: #c90808;
+                                    padding-left: 5%;
+                                }
+                                
+                                .slogan2 {
+                                    font-weight: 90px;
+                                    color: white;
+                                    padding-left: 50%;
+                                }
+                                
+                                .mission {
+                                    color: #fff;
+                                    margin-top: 5%;
+                                }
